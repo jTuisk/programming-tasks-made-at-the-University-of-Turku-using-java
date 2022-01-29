@@ -1,0 +1,29 @@
+fi/utu/tech/gui/javafx/assignment2/MainApp2.java
+ fi.utu.tech.gui.javafx.assignment2.MainApp2
+fi/utu/tech/gui/javafx/ImageBlackBox.java
+ fi.utu.tech.gui.javafx.ImageBlackBox
+fi/utu/tech/gui/javafx/assignment1/MainApp1.java
+ fi.utu.tech.gui.javafx.assignment1.MainApp1
+module-info.java
+ module-info
+fi/utu/tech/gui/javafx/assignment3/MainApp3.java
+ fi.utu.tech.gui.javafx.assignment3.MainApp3
+fi/utu/tech/gui/javafx/assignment4/MainApp4.java
+ fi.utu.tech.gui.javafx.assignment4.MainApp4
+fi/utu/tech/gui/javafx/assignment8/OtherWindow.java
+ fi.utu.tech.gui.javafx.assignment8.OtherWindow
+fi/utu/tech/gui/javafx/Main.java
+ fi.utu.tech.gui.javafx.Main
+fi/utu/tech/gui/javafx/assignment5/MainApp5.java
+ fi.utu.tech.gui.javafx.assignment5.MainApp5
+fi/utu/tech/gui/javafx/assignment6/MainApp6.java
+ fi.utu.tech.gui.javafx.assignment6.MainApp6
+fi/utu/tech/gui/javafx/assignment7/MainApp7.java
+ fi.utu.tech.gui.javafx.assignment7.MainApp7
+ fi.utu.tech.gui.javafx.assignment7.MainApp7$1
+ fi.utu.tech.gui.javafx.assignment7.MainApp7$2
+fi/utu/tech/gui/javafx/assignment8/MainApp8.java
+ fi.utu.tech.gui.javafx.assignment8.MainApp8
+ fi.utu.tech.gui.javafx.assignment8.MainApp8$1
+ fi.utu.tech.gui.javafx.assignment8.MainApp8$2
+ fi.utu.tech.gui.javafx.assignment8.MainApp8$3

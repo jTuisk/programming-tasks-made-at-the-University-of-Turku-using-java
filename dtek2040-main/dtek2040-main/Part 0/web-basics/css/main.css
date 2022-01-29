@@ -1,0 +1,41 @@
+table, th, td { border: 1px solid black;}
+
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+a {
+    filter: grayscale(100%);
+    transition: 2s;
+}
+a:hover {
+    filter: grayscale(0%);
+    transition: 2s;
+}
+
+
+td#rJoo { background-color:green;}
+td#rEi { background-color: red;}
+td#rOk { background-color:blue;}
+
+table.kysymys {
+    background-color:#F5FFFA;
+}
+
+th.otsikko {
+    height: 30px;
+    width: 120%;
+    padding-left: 50px;
+}
+input[type=submit] {
+    height: 100px;
+    width: 100px;
+    transition: 2s;
+}
+input[type=submit]:hover {
+    background-color: red; 
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}

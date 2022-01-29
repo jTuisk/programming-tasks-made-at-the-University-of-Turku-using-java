@@ -1,0 +1,51 @@
+Tehtävä 3 vastaukset
+
+1) Tiedonsiirron nopeus (bit/s)
+
+Määrittely: Javan Class TiedonsiirronNopeus, parametreina  bitit ja int sekunnit
+Käyttötapaukset: (-9,223,372,036,854,775,807 ... 9,223,372,036,854,775,806) / (-2,147,483,648 .. 2,147,483,647)
+Rajoitukset: Tera-, giga-, mega- ja kilobitit eri kokoisia, 1 000 000 000 000 bit/s vs 1000 bit/s
+Esimerkki käytöstä:
+
+TiedonsiirronNopeus nopeus = new TiedonsiirronNopeus(500 000, 60);
+public TiedonsiirronNopeus(long bitit, int sekunnit){
+}
+------------
+2) Murtoluku
+
+Määrittely: Javan Class Murtoluku, int-tyyppiset arvot parametreinä
+Käyttötapaukset: (-2,147,483,648 .. 2,147,483,647)
+Rajoitukset: nimittaja != 0, negatiivisten lukujen esittäminen
+Esimerkki käytöstä:
+
+Rationaaliluku Murtoluku = new Rationaaliluku(10,60);
+public Rationaaliluku(int osoittaja, int nimittaja){
+}
+------------
+3) Suomalainen henkilön nimi
+
+Määrittely: Javan Class Nimi, parametreina String-tyyppiset parametrit etu-, toka ja sukunimille
+Käyttötapaukset: Merkkejä voi olla väliltä (0 ... 2,147,483,647) jokaisessa parametrissa
+Rajoitukset: Erilaiset nimien esitysmuodot, etu- ja sukunimet eripäin, erikoismerkit (unicode), eri verran toisia nimiä.
+Esimerkki käytöstä: 
+
+Nimi matinNimi = new Nimi("Matti", "Sepon poika", "Meikäläinen");
+------------
+4) Suomalainen puhelinnumero
+
+Määrittely: Java Class Puhelinnumero, parametreinä String-tyyppiset parametrit puhelinnumerolle, suuntanumero ja omistajalle
+Käyttötapaukset: Merkkejä puhelinnumerossa voi olla väliltä (3 ... 15), omistajalla (1 ... 2,147,483,647)
+Rajoitukset: Väliviivojen ja välien käyttö, osa voi käyttää suuntanumeroa (+358) ensimmäisen 0 sijasta
+Esimerkki käytöstä: 
+
+Puhelinnumero puhelinnumero = new Puhelinnumero("Matti Meikäläinen", "0501234567");
+------------
+5) Henkilö sukututkimusohjelmassa (halutaan vain selvittää sukulaisuussuhteita)
+
+Määrittely Javan Class Henkilo, String-tyyppiset parametrit etu- ja sukunimi:lle, ArrayList<Henkilo>-tyyppiset parametrit vanhemille, lapislle ja sisaruksille.
+Käyttötapaukset: Stringit ovat (1 ... 2,147,483,647) ja ArrayList<Henkilo> (null || 0 ... 2,147,483,647)
+Rajoitukset: Stringissä Erikoismerkit (unicode).
+Esimerkki käytöstä:
+
+Henkilo henkilo = new Henkilo(String etunimi, String sukunimi, ArrayList<Henkilo> vanhemmat, ArrayList<Henkilo> lapset, ArrayList<Henkilo> sisarukset);
+
